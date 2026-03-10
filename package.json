@@ -12,6 +12,9 @@
     "prepare": "cp scripts/pre-commit .git/hooks/pre-commit 2>/dev/null && chmod +x .git/hooks/pre-commit 2>/dev/null || true"
   },
   "devDependencies": {
-    "concurrently": "^9.0.0"
+    "@types/node": "^25.4.0",
+    "concurrently": "^9.0.0",
+    "vite": "^7.3.1",
+    "vitest": "^4.0.18"
   }
 }
